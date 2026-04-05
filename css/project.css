@@ -1,0 +1,127 @@
+.project-hero {
+  padding: 120px 0 60px;
+  border-bottom: 1px solid var(--gray-color);
+}
+
+.project-hero .back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+  color: var(--gray-text-color);
+  text-decoration: none;
+  margin-bottom: 32px;
+}
+
+.project-hero .back-link:hover {
+  color: var(--secondary-accent);
+}
+
+.project-hero h1 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.15;
+  margin-bottom: 12px;
+  color: var(--primary-accent);
+}
+
+.project-hero .project-subtitle {
+  font-size: 18px;
+  color: var(--gray-text-color);
+}
+
+.project-meta {
+  padding: 40px 0;
+  border-bottom: 1px solid var(--gray-color);
+  display: flex;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+.project-meta-item h4 {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--gray-text-color);
+  margin-bottom: 6px;
+}
+
+.project-meta-item p {
+  font-size: 15px;
+  color: var(--primary-accent);
+}
+
+.project-overview {
+  padding: 60px 0;
+  max-width: 720px;
+}
+
+.project-overview h2 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: var(--primary-accent);
+}
+
+.project-overview p {
+  font-size: 16px;
+  line-height: 1.8;
+  color: var(--supportive-text-color);
+  margin-bottom: 16px;
+}
+
+.project-gallery {
+  padding: 0 0 80px;
+}
+
+.project-gallery h2 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 32px;
+  color: var(--primary-accent);
+}
+
+.project-gallery-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.project-hero-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+.project-hero-nav-links {
+  display: flex;
+  gap: 16px;
+}
+
+.project-hero-nav > a,
+.project-hero-nav-links a {
+  font-size: 64px;
+  line-height: 1;
+  color: var(--gray-color-2);
+  text-decoration: none;
+  transition: color 0.2s;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.project-hero-nav > a:hover,
+.project-hero-nav-links a:hover {
+  color: var(--secondary-accent);
+}
+
+.project-hero-nav > a .back-text {
+  font-size: 12px;
+  line-height: 1;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  align-self: center;
+  padding-top: 8px;
+  color: var(--gray-text-color);
+}
