@@ -157,6 +157,10 @@
   .project-box {
     max-width: 100%;
   }
+
+  .project-overview {
+    column-count: 1;
+  }
 }
 
 @media (max-width: 406px) {

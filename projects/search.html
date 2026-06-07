@@ -15,6 +15,13 @@
       <div class="container container-lg">
         <div class="header-nav">
           <a href="../index.html" class="logo">B.Herstad</a>
+          <div class="project-hero-nav">
+            <a href="../index.html#projects" title="Back to projects">Back to projects</a>
+            <div class="project-hero-nav-links">
+              <a href="feed.html" title="Previous project">Previous</a>
+              <a href="outlook.html" title="Next project">Next</a>
+            </div>
+          </div>
         </div>
       </div>
     </header>
@@ -22,13 +29,6 @@
     <main>
       <section class="project-hero">
         <div class="container">
-          <div class="project-hero-nav">
-            <a href="../index.html#projects" title="Back to projects">&#171; <span class="back-text">Back to projects</span></a>
-            <div class="project-hero-nav-links">
-              <a href="feed.html" title="Previous project">&#8249;</a>
-              <a href="outlook.html" title="Next project">&#8250;</a>
-            </div>
-          </div>
           <h1>Microsoft Search</h1>
           <p class="project-subtitle">Unified Search Box, Connectors, Bing Answers</p>
         </div>
@@ -55,7 +55,6 @@
         </div>
 
         <div class="project-overview">
-          <h2>Overview</h2>
           <p>
             Microsoft Development Center has worked on SharePoint search from the early days after the acquisition of Fast Search and Transfer. The Microsoft Search project took this to a new chapter aligning the search experience and delivering enterprise search capabilities across the suite.
           </p>
@@ -68,11 +67,13 @@
         </div>
 
         <div class="project-gallery">
-          <h2>Design Work</h2>
-          <div class="project-gallery-grid">
-            <img src="../img/Search1.png" alt="Search – screen 2" />
-            <img src="../img/Search2.png" alt="Search – screen 3" />
-            <img src="../img/Search.png" alt="Search" />
+          <div class="carousel">
+            <div class="carousel-track">
+              <div class="carousel-slide"><img src="../img/Search1.png" alt="Search – screen 2" /></div>
+              <div class="carousel-slide"><img src="../img/Search2.png" alt="Search – screen 3" /></div>
+              <div class="carousel-slide"><img src="../img/Search.png" alt="Search" /></div>
+            </div>
+            <div class="carousel-dots"></div>
           </div>
         </div>
       </div>
@@ -87,5 +88,6 @@
         </div>
       </div>
     </footer>
-  </body>
+  <script src="../js/carousel.js" defer></script>
+</body>
 </html>

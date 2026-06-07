@@ -15,6 +15,13 @@
       <div class="container container-lg">
         <div class="header-nav">
           <a href="../index.html" class="logo">B.Herstad</a>
+          <div class="project-hero-nav">
+            <a href="../index.html#projects" title="Back to projects">Back to projects</a>
+            <div class="project-hero-nav-links">
+              <a href="delve.html" title="Previous project" class="disabled">Previous</a>
+              <a href="feed.html" title="Next project">Next</a>
+            </div>
+          </div>
         </div>
       </div>
     </header>
@@ -22,13 +29,6 @@
     <main>
       <section class="project-hero">
         <div class="container">
-          <div class="project-hero-nav">
-            <a href="../index.html#projects" title="Back to projects">&#171; <span class="back-text">Back to projects</span></a>
-            <div class="project-hero-nav-links">
-              <a href="delve.html" title="Previous project" class="disabled">&#8249;</a>
-              <a href="feed.html" title="Next project">&#8250;</a>
-            </div>
-          </div>
           <h1>Microsoft Copilot</h1>
           <p class="project-subtitle">Researcher Agent UX Design</p>
         </div>
@@ -55,7 +55,6 @@
         </div>
 
         <div class="project-overview">
-          <h2>Overview</h2>
           <p>
             As Principal Design Lead, I have worked on concepts and UX designs for the Copilot Researcher Agent in Microsoft 365, including both web and mobile experiences. The patterns and approaches explored through Researcher have also informed other Agents through the broader Agent framework.
           </p>
@@ -65,12 +64,16 @@
         </div>
 
         <div class="project-gallery">
-          <h2>Design Work</h2>
-          <div class="project-gallery-grid">
-            <img src="../img/ResearcherAgent.png" alt="Microsoft Copilot Researcher Agent" />
-            <div style="width:70%; overflow:hidden; border-radius:8px; margin:40px auto 0; border:1px solid rgba(0,0,0,0.12); box-shadow:0 4px 16px rgba(0,0,0,0.15);">
-              <video src="../img/ResearcherAgent.mp4" autoplay loop muted playsinline style="width:110%; display:block; margin-left:-5%; object-fit:cover;"></video>
+          <div class="carousel">
+            <div class="carousel-track">
+              <div class="carousel-slide">
+                <img src="../img/ResearcherAgent.png" alt="Microsoft Copilot Researcher Agent" />
+              </div>
+              <div class="carousel-slide">
+                <video src="../img/ResearcherAgent.mp4" autoplay loop muted playsinline></video>
+              </div>
             </div>
+            <div class="carousel-dots"></div>
           </div>
         </div>
       </div>
@@ -85,5 +88,6 @@
         </div>
       </div>
     </footer>
-  </body>
+  <script src="../js/carousel.js" defer></script>
+</body>
 </html>
